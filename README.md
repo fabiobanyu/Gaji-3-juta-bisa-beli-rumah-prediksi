@@ -11,6 +11,8 @@
 ![Wilayah](https://img.shields.io/badge/Studi_kasus-Lampung-D96F3A)
 ![Snapshot](https://img.shields.io/badge/Snapshot_data-30_Okt_2026-52637F)
 
+[![Validate research](https://github.com/fabiobanyu/gaji-3-juta-kapan-beli-rumah/actions/workflows/validate.yml/badge.svg)](https://github.com/fabiobanyu/gaji-3-juta-kapan-beli-rumah/actions/workflows/validate.yml)
+
 [Buka notebook](analisis_lampung.ipynb) · [Baca laporan](reports/laporan.md) · [Lihat hasil](results/summary.csv) · [Audit sumber](data/source_manifest.csv)
 
 </div>
