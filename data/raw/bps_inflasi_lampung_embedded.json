@@ -1,0 +1,167 @@
+{
+  "status": "OK",
+  "data-availability": "available",
+  "last_update": "2026-10-03 07:52:34",
+  "subject": [
+    {
+      "val": 536,
+      "label": "Harga-Harga"
+    }
+  ],
+  "var": [
+    {
+      "val": 205,
+      "label": "Inflasi",
+      "unit": "Tidak Ada Satuan",
+      "subj": "Inflasi",
+      "def": "",
+      "decimal": 2,
+      "note": "Catatan: <br>\n- 2024 - sekarang, Inflasi Gabungan 4 Kabupaten/Kota <br>\n- 2014 - 2023, Inflasi Gabungan 2 Kota <br>\n- 2006 - 2013, Inflasi Kota Bandar Lampung\n- Sejak Juni 2008, tahun dasar 2007=100  <br>\n- Sejak Januari 2014, tahun dasar 2012=100 <br>\n- Sejak Januari 2020, tahun dasar 2018=100 <br>\n- Sejak Januari 2024, tahun dasar 2022=100 <br>"
+    }
+  ],
+  "turvar": [
+    {
+      "val": "0",
+      "label": "Tidak ada"
+    }
+  ],
+  "labelvervar": "Bulan.",
+  "vervar": [
+    {
+      "val": 1,
+      "label": "Januari"
+    },
+    {
+      "val": 2,
+      "label": "Februari"
+    },
+    {
+      "val": 3,
+      "label": "Maret"
+    },
+    {
+      "val": 4,
+      "label": "April"
+    },
+    {
+      "val": 5,
+      "label": "Mei"
+    },
+    {
+      "val": 6,
+      "label": "Juni"
+    },
+    {
+      "val": 7,
+      "label": "Juli"
+    },
+    {
+      "val": 8,
+      "label": "Agustus"
+    },
+    {
+      "val": 9,
+      "label": "September"
+    },
+    {
+      "val": 10,
+      "label": "Oktober"
+    },
+    {
+      "val": 11,
+      "label": "November"
+    },
+    {
+      "val": 12,
+      "label": "Desember"
+    },
+    {
+      "val": 13,
+      "label": "Tahunan"
+    }
+  ],
+  "tahun": [
+    {
+      "val": 126,
+      "label": "2026"
+    }
+  ],
+  "turtahun": [
+    {
+      "val": 0,
+      "label": "Tahun"
+    }
+  ],
+  "datacontent": {
+    "120501260": -0.07,
+    "220501260": 0.36,
+    "320501260": 0.19,
+    "420501260": 0.55,
+    "520501260": 1.94,
+    "620501260": 2.46,
+    "720501260": 1.76,
+    "820501260": 3.53,
+    "920501260": 3.51
+  },
+  "related": [
+    {
+      "id": "ODc3IzI=",
+      "title": "Laju Inflasi Kabupaten Mesuji",
+      "tablesource": "2",
+      "last_update": "2026-01-05 05:26:28",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/ODc3IzI=/laju-inflasi-kabupaten-mesuji.html"
+    },
+    {
+      "id": "MjAzIzI=",
+      "title": "Laju Inflasi Kota Metro",
+      "tablesource": "2",
+      "last_update": "2026-01-05 05:24:38",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/MjAzIzI=/laju-inflasi-kota-metro.html"
+    },
+    {
+      "id": "MSMy",
+      "title": "Laju Inflasi Kota Bandar Lampung",
+      "tablesource": "2",
+      "last_update": "2026-01-05 05:24:03",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/MSMy/laju-inflasi-kota-bandar-lampung.html"
+    },
+    {
+      "id": "ODc4IzI=",
+      "title": "Laju Inflasi Kabupaten Lampung Timur",
+      "tablesource": "2",
+      "last_update": "2026-01-05 05:25:06",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/ODc4IzI=/laju-inflasi-kabupaten-lampung-timur.html"
+    },
+    {
+      "id": "NjUwIzI=",
+      "title": "Laju Inflasi Bulanan Menurut Kelompok Pengeluaran",
+      "tablesource": "2",
+      "last_update": "2026-08-11 12:05:54",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/NjUwIzI=/laju-inflasi-bulanan-menurut-kelompok-pengeluaran.html"
+    },
+    {
+      "id": "NjQ5IzI=",
+      "title": "Laju Inflasi Bulanan Kota Metro menurut Kelompok Pengeluaran",
+      "tablesource": "2",
+      "last_update": "2026-08-11 11:40:56",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/NjQ5IzI=/laju-inflasi-bulanan-kota-metro-menurut-kelompok-pengeluaran.html"
+    },
+    {
+      "id": "NjQ4IzI=",
+      "title": "Laju Inflasi Bulanan Kota Bandar Lampung menurut Kelompok Pengeluaran",
+      "tablesource": "2",
+      "last_update": "2026-08-11 12:01:18",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/NjQ4IzI=/laju-inflasi-bulanan-kota-bandar-lampung-menurut-kelompok-pengeluaran.html"
+    },
+    {
+      "id": "NzMwIzI=",
+      "title": "Inflasi Bulanan (M-to-M) 4 Kabupaten/Kota di Provinsi Lampung (2022=100)",
+      "tablesource": "2",
+      "last_update": "2024-02-16 05:22:10",
+      "url": "https://lampung.bps.go.id/id/statistics-table/2/NzMwIzI=/inflasi-bulanan-m-to-m-4-kabupaten-kota-di-provinsi-lampung-2022-100.html"
+    }
+  ],
+  "metadata": {
+    "indikator": []
+  }
+}

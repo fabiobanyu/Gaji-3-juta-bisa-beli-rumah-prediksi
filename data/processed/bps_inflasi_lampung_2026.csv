@@ -1,0 +1,13 @@
+﻿province,period,value_percent,measure,interpretation,source_id,source_key,data_class
+Lampung,2026-01,-0.07,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,120501260,observed_aggregate
+Lampung,2026-02,0.36,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,220501260,observed_aggregate
+Lampung,2026-03,0.19,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,320501260,observed_aggregate
+Lampung,2026-04,0.55,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,420501260,observed_aggregate
+Lampung,2026-05,1.94,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,520501260,observed_aggregate
+Lampung,2026-06,2.46,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,620501260,observed_aggregate
+Lampung,2026-07,1.76,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,720501260,observed_aggregate
+Lampung,2026-08,3.53,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,820501260,observed_aggregate
+Lampung,2026-09,3.51,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,920501260,observed_aggregate
+Lampung,2026-10,,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,1020501260,observed_aggregate
+Lampung,2026-11,,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,1120501260,observed_aggregate
+Lampung,2026-12,,inflation_table_unspecified_basis,September 3.51 cross-checked as yoy; table metadata does not specify basis,bps_inflasi_lampung,1220501260,observed_aggregate

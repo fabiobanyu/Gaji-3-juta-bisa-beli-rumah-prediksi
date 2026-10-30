@@ -1,0 +1,8 @@
+﻿source_id,issue,action,status
+bps_pengeluaran,HTML200 tetapi Gagal Memuat Tabel,Tidak digunakan; diganti tabel komoditas/PDF,excluded
+bps_lampung_2026_pdf,Total provinsi2025 Tabel11.3 berbeda dari Tabel11.1,"Tabel kabupaten disimpan as_reported, tidak untuk model",flagged
+bps_inflasi_lampung,Basis yoy/mtm tidak tertulis pada metadata tabel,Tidak untuk kalibrasi biaya; 3% asumsi,flagged
+sikumbang_menara,"3blok,2tipeunik; tanpa tanggal pembaruan",Deduplicate spesifikasi/harga; snapshot tanggalakses,handled
+tapera_flpp,Halaman40tahun vs brosur20; kataflat vs anuitas model,20tahun pilihanmodel; flat/anuitas dan30/40 diuji,scenario_separation
+bi_shpr_pdf,Unduhanawal terputus,Retry berhasil sebagai bi_shpr_pdf_retry,recovered
+pemprov_inflasi_sep2026,Unduhanlangsung halamanblokir,Tidak dianggap unduhan angka terverifikasi,excluded

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Jika menggunakan model atau analisis ini, cantumkan penulis dan repository serta sumber resmi datanya."
+title: "Gaji Rp3 Juta, Kapan Bisa Beli Rumah? Studi Skenario Lampung"
+authors:
+  - name: "Fabio Banyu Cyto"
+repository-code: "https://github.com/fabiobanyu/gaji-3-juta-kapan-beli-rumah"
+type: software
+version: 1.0.0
+date-released: 2026-10-30
+keywords:
+  - housing affordability
+  - Monte Carlo
+  - Lampung
+  - Indonesia

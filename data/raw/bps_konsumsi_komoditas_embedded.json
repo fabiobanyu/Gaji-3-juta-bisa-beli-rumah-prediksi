@@ -1,0 +1,670 @@
+{
+  "status": "OK",
+  "data-availability": "available",
+  "data": [
+    {
+      "page": 1,
+      "pages": 1,
+      "per_page": 1,
+      "count": 1,
+      "total": 1
+    },
+    {
+      "change_log": [],
+      "list_tahun_data": [
+        2017,
+        2019,
+        2023,
+        2020,
+        2025,
+        2022,
+        2016,
+        2024,
+        2018,
+        2021
+      ],
+      "judul_tabel": "Rata-rata Pengeluaran per Kapita Sebulan Menurut Kelompok Komoditas dan Klasifikasi Desa di Provinsi Lampung (rupiah), 2025",
+      "judul_tabel_en": "Monthly Average Expenditure per Capita by Commodity Group and Urban Rural Classification in Lampung Province (rupiahs), 2025",
+      "lingkup": "Kelompok Komoditas&lt;br/&gt;&lt;i&gt;Commodity Group&lt;/i&gt;",
+      "lingkup_id": "Kelompok Komoditas",
+      "lingkup_en": "Commodity Group",
+      "tahun_data": 2025,
+      "wilayah": "Lampung",
+      "penanggung_jawab": "BPS Provinsi Lampung",
+      "show_satuan": false,
+      "id_subject": "MHd4dHczTU5xcEFmTy9EUDBVU3V1UT09",
+      "bab": "Pengeluaran Penduduk Serta Ketersediaan Dan Konsumsi Makanan",
+      "bab_en": "Population Expenditure And Food Availability, And Consumption",
+      "subject": "Pengeluaran",
+      "subject_en": "Expenditure",
+      "mms_id": 523,
+      "mms_subject": "Konsumsi dan Pendapatan",
+      "keterangan_data": {
+        "...": "Data tidak tersedia",
+        "–": "Tidak ada atau nol",
+        "NA": "Data tidak dapat ditampilkan",
+        "e": "Angka estimasi",
+        "r": "Angka diperbaiki",
+        "~0": "Data dapat diabaikan",
+        "*": "Angka sementara",
+        "**": "Angka sangat sementara",
+        "***": "Angka sangat sangat sementara",
+        "a": "25% &#60; RSE &#8804; 50%",
+        "b": "RSE &#60; 50%",
+        "c": "Penjumlahan tidak sama dengan wilayah diatasnya"
+      },
+      "kolom": {
+        "xq9iv9mejz": {
+          "nama_variabel": "Rata-rata Pengeluaran per Kapita Sebulan - Kota",
+          "nama_variabel_en": "Monthly Average Expenditure per Capita in Urban",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 0,
+          "satuan": "Rp",
+          "satuan_en": "Rp",
+          "metadata_indikator": null,
+          "metadata_konsep_definisi": null,
+          "metadata_kegunaan": null,
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": null,
+          "metadata_rumusan": [],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "rxqc2w9lfd": {
+          "nama_variabel": "Rata-rata Pengeluaran per Kapita Sebulan - Desa",
+          "nama_variabel_en": "Monthly Average Expenditure per Capita in Rural",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 0,
+          "satuan": "Rp",
+          "satuan_en": "Rp",
+          "metadata_indikator": null,
+          "metadata_konsep_definisi": null,
+          "metadata_kegunaan": null,
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": null,
+          "metadata_rumusan": [],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        },
+        "9znd983wyv": {
+          "nama_variabel": "Rata-rata Pengeluaran per Kapita Sebulan - Kota+Desa",
+          "nama_variabel_en": "Monthly Average Expenditure per Capita in Urban and Rural",
+          "tipe": "Numerik",
+          "angka_desimal_dibelakang_koma": 0,
+          "satuan": "Rp",
+          "satuan_en": "Rp",
+          "metadata_indikator": null,
+          "metadata_konsep_definisi": null,
+          "metadata_kegunaan": null,
+          "metadata_keterangan_tambahan": null,
+          "metadata_interpretasi": null,
+          "metadata_rumusan": [],
+          "metadata_rumus_html": null,
+          "metadata_dihasilkan_oleh": [],
+          "tanggal_cut_off": null
+        }
+      },
+      "data": [
+        {
+          "label": "Makanan/<i>Food</i>",
+          "label_raw": "Makanan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": [],
+          "xq9iv9mejz": "...",
+          "rxqc2w9lfd": "...",
+          "9znd983wyv": "..."
+        },
+        {
+          "label": "Padi-padian/<i>Cereals</i>",
+          "label_raw": "Padi-padian",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "78.455",
+              "value_raw": "78.455",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "85.596",
+              "value_raw": "85.596",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "83.132",
+              "value_raw": "83.132",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Umbi-umbian/<i>Tubers</i>",
+          "label_raw": "Umbi-umbian",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "5.971",
+              "value_raw": "5.971",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "4.901",
+              "value_raw": "4.901",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "5.271",
+              "value_raw": "5.271",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Ikan/udang/cumi/kerang/<i> Fish/shrimp/common squid/shells</i>",
+          "label_raw": "Ikan/udang/cumi/kerang",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "59.022",
+              "value_raw": "59.022",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "46.032",
+              "value_raw": "46.032",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "50.514",
+              "value_raw": "50.514",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Daging/<i>Meat</i>",
+          "label_raw": "Daging",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "33.816",
+              "value_raw": "33.816",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "21.987",
+              "value_raw": "21.987",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "26.068",
+              "value_raw": "26.068",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Telur dan susu/<i>Eggs and milk</i>",
+          "label_raw": "Telur dan susu",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "42.149",
+              "value_raw": "42.149",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "29.770",
+              "value_raw": "29.770",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "34.041",
+              "value_raw": "34.041",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Sayur-sayuran/<i>Vegetables</i>",
+          "label_raw": "Sayur-sayuran",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "72.799",
+              "value_raw": "72.799",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "71.360",
+              "value_raw": "71.360",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "71.856",
+              "value_raw": "71.856",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Kacang-kacangan/<i>Legumes</i>",
+          "label_raw": "Kacang-kacangan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "18.183",
+              "value_raw": "18.183",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "15.795",
+              "value_raw": "15.795",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "16.619",
+              "value_raw": "16.619",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Buah-buahan/<i>Fruits</i>",
+          "label_raw": "Buah-buahan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "46.062",
+              "value_raw": "46.062",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "34.082",
+              "value_raw": "34.082",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "38.215",
+              "value_raw": "38.215",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Minyak dan kelapa/<i>Oil and coconut</i>",
+          "label_raw": "Minyak dan kelapa     ",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "22.354",
+              "value_raw": "22.354",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "22.915",
+              "value_raw": "22.915",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "22.722",
+              "value_raw": "22.722",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Bahan minuman/<i>Beverages stuffs</i>",
+          "label_raw": "Bahan minuman",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "22.134",
+              "value_raw": "22.134",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "23.114",
+              "value_raw": "23.114",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "22.776",
+              "value_raw": "22.776",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Bumbu-bumbuan/<i>Spices</i>",
+          "label_raw": "Bumbu-bumbuan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "14.508",
+              "value_raw": "14.508",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "14.649",
+              "value_raw": "14.649",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "14.601",
+              "value_raw": "14.601",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Konsumsi lainnya/<i>Miscellaneous food items</i>",
+          "label_raw": "Konsumsi lainnya",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "12.509",
+              "value_raw": "12.509",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "10.529",
+              "value_raw": "10.529",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "11.212",
+              "value_raw": "11.212",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Makanan dan minuman jadi/<i>Prepared food and beverages</i>",
+          "label_raw": "Makanan dan minuman jadi",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "208.157",
+              "value_raw": "208.157",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "147.567",
+              "value_raw": "147.567",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "168.472",
+              "value_raw": "168.472",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Rokok/<i>Cigarettes</i>",
+          "label_raw": "Rokok",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "97.944",
+              "value_raw": "97.944",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "98.399",
+              "value_raw": "98.399",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "98.242",
+              "value_raw": "98.242",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jumlah makanan/<i>Total food</i>",
+          "label_raw": "Jumlah makanan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "734.064",
+              "value_raw": "734.064",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "626.698",
+              "value_raw": "626.698",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "663.740",
+              "value_raw": "663.740",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Bukan makanan/<i>Non-food</i>",
+          "label_raw": "Bukan makanan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": [],
+          "xq9iv9mejz": "...",
+          "rxqc2w9lfd": "...",
+          "9znd983wyv": "..."
+        },
+        {
+          "label": "Perumahan dan fasilitas rumah tangga/<i> Housing and household facilities</i>",
+          "label_raw": "Perumahan dan fasilitas rumah tangga",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "390.528",
+              "value_raw": "390.528",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "239.557",
+              "value_raw": "239.557",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "291.644",
+              "value_raw": "291.644",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Aneka barang dan jasa/<i> Goods and services</i>",
+          "label_raw": "Aneka barang dan jasa",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "199.354",
+              "value_raw": "199.354",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "110.347",
+              "value_raw": "110.347",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "141.056",
+              "value_raw": "141.056",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Pakaian, alas kaki, dan tutup kepala/<i> Clothing, footwear, and headgear</i>",
+          "label_raw": "Pakaian, alas kaki, dan tutup kepala",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "43.613",
+              "value_raw": "43.613",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "31.098",
+              "value_raw": "31.098",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "35.416",
+              "value_raw": "35.416",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Barang tahan lama/<i>Durable goods</i>",
+          "label_raw": "Barang tahan lama",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "44.517",
+              "value_raw": "44.517",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "42.063",
+              "value_raw": "42.063",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "42.909",
+              "value_raw": "42.909",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Pajak, pungutan, dan asuransi/<i> Taxes and insurance</i>",
+          "label_raw": "Pajak, pungutan, dan asuransi",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "62.582",
+              "value_raw": "62.582",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "38.721",
+              "value_raw": "38.721",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "46.954",
+              "value_raw": "46.954",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Keperluan pesta dan upacara/kenduri/<i>Parties and ceremonies</i>",
+          "label_raw": "Keperluan pesta dan upacara/kenduri",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "19.908",
+              "value_raw": "19.908",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "16.833",
+              "value_raw": "16.833",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "17.894",
+              "value_raw": "17.894",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jumlah bukan makanan/<i>Total non-food</i>",
+          "label_raw": "Jumlah bukan makanan",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "760.502",
+              "value_raw": "760.502",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "478.619",
+              "value_raw": "478.619",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "575.873",
+              "value_raw": "575.873",
+              "value_code": null
+            }
+          }
+        },
+        {
+          "label": "Jumlah/<i>Total</i>",
+          "label_raw": "Jumlah/<i>Total</i>",
+          "satuan": null,
+          "kode_wilayah": null,
+          "variables": {
+            "xq9iv9mejz": {
+              "value": "1.494.565",
+              "value_raw": "1.494.565",
+              "value_code": null
+            },
+            "rxqc2w9lfd": {
+              "value": "1.105.317",
+              "value_raw": "1.105.317",
+              "value_code": null
+            },
+            "9znd983wyv": {
+              "value": "1.239.613",
+              "value_raw": "1.239.613",
+              "value_code": null
+            }
+          }
+        }
+      ],
+      "catatan": "",
+      "sumber": "&lt;p&gt;Badan Pusat Statistik, Survei Sosial Ekonomi Nasional (Susenas) Maret 2025/BPS-Statistics Indonesia, National Socioeconomic Survey March 2025&lt;/p&gt;",
+      "versi": 1,
+      "table_created": "2026-01-02 09:23:41",
+      "status": 200,
+      "condition": "OK",
+      "message": "-",
+      "created": "2026-10-30 10:39:06"
+    }
+  ]
+}

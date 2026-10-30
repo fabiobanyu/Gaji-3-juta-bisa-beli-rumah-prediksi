@@ -1,0 +1,6 @@
+indicator,value,unit,source_id
+Upah rata-rata Lampung Agustus2025,2520619.0,IDR/bulan,bps_upah
+Pengeluaran perkapita Lampung Maret2025,1239613.0,IDR/orang/bulan,bps_konsumsi_komoditas
+IHPR Bandar Lampung2026Q2,105.48,indeks2018=100,bi_shpr_pdf_retry
+Harga penawaran subsidi Kalianda,166000000.0,IDR/unit,sikumbang_menara
+Harga penawaran komersial Kalianda,350000000.0,IDR/unit,sikumbang_menara

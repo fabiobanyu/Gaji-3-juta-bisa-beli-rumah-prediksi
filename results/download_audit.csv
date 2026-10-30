@@ -1,0 +1,17 @@
+source,status,bytes,reference_period,published,updated,revised
+bps_pengeluaran,downloaded_no_table_data,97609.0,,,,
+bps_upah,downloaded_verified_content,141898.0,February and August 2025; annual cells missing,,2026-07-14 14:13:08,
+bps_inflasi_lampung,downloaded_verified_content,112876.0,January-September 2026,,2026-10-03 07:52:34,
+bi_shpr_2026q2,downloaded_verified_content,664287.0,2026Q2; historical annex 2021Q1-2026Q2 nationally; 2022Q1-2026Q2 city,2026-08-07,,
+sikumbang_menara,downloaded_verified_content,17139.0,Snapshot 2026-10-30,,,
+tapera_flpp,downloaded_verified_content,246737.0,,,,
+tapera_brosur,downloaded_verified_content,3569997.0,Brochure in 2025/09 URL path; exact publication date unavailable,,,
+mandiri_flpp,downloaded_verified_content,144622.0,,,,
+pkp_tenor,downloaded_verified_content,101996.0,,,,
+bi_report_page,downloaded_verified_content,646462.0,2026Q2; historical annex 2021Q1-2026Q2 nationally; 2022Q1-2026Q2 city,2026-08-07,,
+bps_publikasi_lampung,downloaded_verified_content,125990.0,"Multiple periods, predominantly 2025",2026-02-27,,2026-10-27
+bps_konsumsi_komoditas,downloaded_verified_content,121894.0,Susenas March 2025,,,
+bi_shpr_pdf,failed,,,,,
+bps_lampung_2026_pdf,downloaded_verified_content,26812007.0,,2026-02-27,,2026-10-27
+bi_shpr_pdf_retry,downloaded_verified_content,1986918.0,2026Q2; historical annex 2021Q1-2026Q2 nationally; 2022Q1-2026Q2 city,2026-08-07,,
+pemprov_inflasi_sep2026,blocked,5941.0,,,,

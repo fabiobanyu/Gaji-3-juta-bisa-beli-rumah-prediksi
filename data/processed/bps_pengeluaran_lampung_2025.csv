@@ -1,0 +1,76 @@
+﻿province,period,commodity,area,expenditure_idr_capita_month,raw_value,data_class,source_id
+Lampung,2025-03,Makanan,Kota,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Makanan,Desa,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Makanan,Kota+Desa,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Padi-padian,Kota,78455.0,78.455,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Padi-padian,Desa,85596.0,85.596,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Padi-padian,Kota+Desa,83132.0,83.132,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Umbi-umbian,Kota,5971.0,5.971,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Umbi-umbian,Desa,4901.0,4.901,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Umbi-umbian,Kota+Desa,5271.0,5.271,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Ikan/udang/cumi/kerang,Kota,59022.0,59.022,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Ikan/udang/cumi/kerang,Desa,46032.0,46.032,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Ikan/udang/cumi/kerang,Kota+Desa,50514.0,50.514,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Daging,Kota,33816.0,33.816,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Daging,Desa,21987.0,21.987,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Daging,Kota+Desa,26068.0,26.068,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Telur dan susu,Kota,42149.0,42.149,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Telur dan susu,Desa,29770.0,29.770,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Telur dan susu,Kota+Desa,34041.0,34.041,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Sayur-sayuran,Kota,72799.0,72.799,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Sayur-sayuran,Desa,71360.0,71.360,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Sayur-sayuran,Kota+Desa,71856.0,71.856,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Kacang-kacangan,Kota,18183.0,18.183,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Kacang-kacangan,Desa,15795.0,15.795,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Kacang-kacangan,Kota+Desa,16619.0,16.619,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Buah-buahan,Kota,46062.0,46.062,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Buah-buahan,Desa,34082.0,34.082,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Buah-buahan,Kota+Desa,38215.0,38.215,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Minyak dan kelapa,Kota,22354.0,22.354,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Minyak dan kelapa,Desa,22915.0,22.915,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Minyak dan kelapa,Kota+Desa,22722.0,22.722,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bahan minuman,Kota,22134.0,22.134,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bahan minuman,Desa,23114.0,23.114,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bahan minuman,Kota+Desa,22776.0,22.776,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bumbu-bumbuan,Kota,14508.0,14.508,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bumbu-bumbuan,Desa,14649.0,14.649,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bumbu-bumbuan,Kota+Desa,14601.0,14.601,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Konsumsi lainnya,Kota,12509.0,12.509,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Konsumsi lainnya,Desa,10529.0,10.529,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Konsumsi lainnya,Kota+Desa,11212.0,11.212,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Makanan dan minuman jadi,Kota,208157.0,208.157,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Makanan dan minuman jadi,Desa,147567.0,147.567,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Makanan dan minuman jadi,Kota+Desa,168472.0,168.472,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Rokok,Kota,97944.0,97.944,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Rokok,Desa,98399.0,98.399,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Rokok,Kota+Desa,98242.0,98.242,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah makanan,Kota,734064.0,734.064,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah makanan,Desa,626698.0,626.698,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah makanan,Kota+Desa,663740.0,663.740,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bukan makanan,Kota,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bukan makanan,Desa,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Bukan makanan,Kota+Desa,,,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Perumahan dan fasilitas rumah tangga,Kota,390528.0,390.528,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Perumahan dan fasilitas rumah tangga,Desa,239557.0,239.557,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Perumahan dan fasilitas rumah tangga,Kota+Desa,291644.0,291.644,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Aneka barang dan jasa,Kota,199354.0,199.354,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Aneka barang dan jasa,Desa,110347.0,110.347,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Aneka barang dan jasa,Kota+Desa,141056.0,141.056,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pakaian, alas kaki, dan tutup kepala",Kota,43613.0,43.613,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pakaian, alas kaki, dan tutup kepala",Desa,31098.0,31.098,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pakaian, alas kaki, dan tutup kepala",Kota+Desa,35416.0,35.416,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Barang tahan lama,Kota,44517.0,44.517,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Barang tahan lama,Desa,42063.0,42.063,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Barang tahan lama,Kota+Desa,42909.0,42.909,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pajak, pungutan, dan asuransi",Kota,62582.0,62.582,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pajak, pungutan, dan asuransi",Desa,38721.0,38.721,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,"Pajak, pungutan, dan asuransi",Kota+Desa,46954.0,46.954,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Keperluan pesta dan upacara/kenduri,Kota,19908.0,19.908,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Keperluan pesta dan upacara/kenduri,Desa,16833.0,16.833,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Keperluan pesta dan upacara/kenduri,Kota+Desa,17894.0,17.894,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah bukan makanan,Kota,760502.0,760.502,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah bukan makanan,Desa,478619.0,478.619,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah bukan makanan,Kota+Desa,575873.0,575.873,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah/Total,Kota,1494565.0,1.494.565,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah/Total,Desa,1105317.0,1.105.317,observed_aggregate,bps_konsumsi_komoditas
+Lampung,2025-03,Jumlah/Total,Kota+Desa,1239613.0,1.239.613,observed_aggregate,bps_konsumsi_komoditas

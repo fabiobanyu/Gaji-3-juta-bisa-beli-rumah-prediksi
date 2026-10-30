@@ -1,0 +1,11 @@
+{
+  "source_hashes_verified": 15,
+  "code_cells_executed": 8,
+  "embedded_figures": 4,
+  "monte_carlo_paths_per_experiment": 10000,
+  "alternatives": 4,
+  "model_checks": 16,
+  "known_source_issues": 7,
+  "audit_status": "PASS",
+  "notebook_execution": "Local Python cell execution and IPython display capture; no Jupyter kernel sockets"
+}

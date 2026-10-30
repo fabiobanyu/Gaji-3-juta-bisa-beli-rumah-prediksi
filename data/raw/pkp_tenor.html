@@ -1,0 +1,1835 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+                    <title>Beranda | Kementerian Perumahan dan Kawasan Permukiman</title>
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/favicon-16x16.png">
+        <link href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/backpanel-assets/global-assets/icons/phosphor/styles.min.css" rel="stylesheet" type="text/css">
+        <!-- <link rel="manifest" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/manifest.json"> -->
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Bootstrap 5 CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+        <!-- Font Awesome CSS -->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+        <!-- BI -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!-- Google Fonts -->
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto&display=swap'>
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/frontpanel-assets/css/custom.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/page-flip/dist/css/page-flip.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        	<!-- Swiper -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<style>
+		.pu-banner {
+			background-color: #fff;
+			background-position: 0 100%;
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: #fff;
+			height: 200px;
+			position: relative;
+			transition: .1s ease-in-out;
+		}
+
+		.nav-tabs .nav-item .nav-link {
+			border: none;
+			border-bottom: 2px solid white;
+			color: #000;
+		}
+
+		.nav-tabs .nav-item .nav-link.active {
+			background-color: white;
+			border: none;
+			border-bottom: 2px solid #030F6B;
+		}
+
+		.swiper {
+			width: 100%;
+			height: 100%;
+		}
+
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+
+		.swiper {
+			width: 100%;
+			height: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.swiper-slide {
+			background-size: cover;
+			background-position: center;
+		}
+
+		.mySwiper2 {
+			height: 80%;
+			width: 100%;
+		}
+
+		.mySwiper {
+			height: 20%;
+			box-sizing: border-box;
+			padding: 10px 0;
+		}
+
+		.mySwiper .swiper-slide {
+			width: 25%;
+			height: 100%;
+			opacity: 0.4;
+		}
+
+		.mySwiper .swiper-slide-thumb-active {
+			opacity: 1;
+		}
+
+		.swiper-slide img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	</style>
+        <style>
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+.survey-panel {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    width: 260px;
+    background: #fffffd;
+    padding: 16px 18px;
+    border: 2px solid #0E5B73;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(12px);
+    pointer-events: none;
+    transition: opacity .3s ease, transform .3s ease;
+}
+
+.survey-panel-content p {
+    margin: 0 0 12px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.survey-btn {
+    background: #0E5B73;
+    color: #fff;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.survey-panel.show {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.panel-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.floating-btn {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: #fffffd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 999;
+    transition: opacity .3s ease, transform .3s ease;
+    opacity: 0;
+    transform: scale(.8);
+    pointer-events: none;
+}
+.floating-btn.show {
+    opacity: 1;
+    transform: scale(1);
+    pointer-events: auto;
+}
+.floating-btn img {
+    width: 42px;
+}
+.fab-tooltip {
+    position: absolute;
+    right: 65px;
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(0);
+    transition: opacity .2s ease, transform .2s ease;
+}
+
+.floating-btn:hover .fab-tooltip {
+    opacity: 1;
+    transform: translateY(-4px);
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.navbar-toggler.collapsed {
+    border: 1px solid #ffffff;
+}
+
+.navbar-toggler.collapsed .hamburger span {
+    background-color: #ffffff;
+}
+
+footer {
+    background-color: #113F51;
+    color: white;
+    padding: 50px 5% 20px;
+    margin-top: auto;
+    border-top: 5px solid #CDB278;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-col h4 {
+    color: #CDB278;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-col p, .footer-col ul li {
+    font-size: 0.9rem;
+    color: #bdc3c7;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.footer-col ul li a:hover { color: #CDB278; text-decoration: underline; }
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding-top: 25px;
+    font-size: 0.85rem;
+    color: #7f8c8d;
+}
+
+.gpr-widget-eyebrow {
+    display: block;
+    margin-bottom: 0.35rem;
+    color: #0E5B73;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+.gpr-widget-toggle {
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    z-index: 10000;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0 1rem;
+    border: 0;
+    border-radius: 10px 0 0 10px;
+    background: #113F51;
+    box-shadow: 0 4px 16px rgba(17, 63, 81, 0.25);
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s ease, padding 0.2s ease;
+}
+
+.gpr-widget-toggle:hover,
+.gpr-widget-toggle:focus-visible {
+    padding-right: 1.25rem;
+    background: #0E5B73;
+    color: #fff;
+}
+
+.gpr-widget-toggle i {
+    color: #CDB278;
+}
+
+.gpr-widget-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 10001;
+    background: rgba(10, 27, 34, 0.48);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease, visibility 0.25s ease;
+    visibility: hidden;
+}
+
+.gpr-widget-backdrop.is-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+}
+
+.gpr-widget-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10002;
+    display: flex;
+    width: 20vw;
+    min-width: 400px;
+    max-width: 520px;
+    height: 100vh;
+    height: 100dvh;
+    flex-direction: column;
+    background: #fff;
+    border-left: 4px solid #CDB278;
+    box-shadow: -12px 0 32px rgba(17, 63, 81, 0.2);
+    transform: translateX(105%);
+    transition: transform 0.28s ease, visibility 0.28s ease;
+    visibility: hidden;
+}
+
+.gpr-widget-drawer.is-open {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.gpr-widget-drawer-header {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid #e6ebed;
+    background: #f6f8f8;
+}
+
+.gpr-widget-drawer-header .gpr-widget-eyebrow {
+    margin-bottom: 0.25rem;
+}
+
+.gpr-widget-drawer-header h2 {
+    margin: 0;
+    color: #113F51;
+    font-size: 1.15rem;
+    font-weight: 700;
+}
+
+.gpr-widget-close {
+    display: grid;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+    place-items: center;
+    border: 1px solid #d9e0e2;
+    border-radius: 50%;
+    background: #fff;
+    color: #113F51;
+    font-size: 1.2rem;
+}
+
+.gpr-widget-close:hover,
+.gpr-widget-close:focus-visible {
+    border-color: #113F51;
+    background: #113F51;
+    color: #fff;
+}
+
+.gpr-widget-content {
+    min-height: 0;
+    flex: 1 1 auto;
+    overflow: auto;
+    padding: 1rem;
+}
+
+#gpr-kominfo-widget-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+body.gpr-widget-open {
+    overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+    .gpr-widget-toggle {
+        right: 20px;
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+        padding: 0;
+        border: 1px solid rgba(205, 178, 120, 0.8);
+        border-radius: 50%;
+        background: #fffffd;
+        color: #0E5B73;
+        font-size: 21px;
+    }
+
+    .gpr-widget-toggle:hover,
+    .gpr-widget-toggle:focus-visible {
+        padding: 0;
+        background: #f6f8f8;
+        color: #0E5B73;
+    }
+
+    .gpr-widget-toggle i {
+        color: #0E5B73;
+    }
+
+    .gpr-widget-toggle span {
+        display: none;
+    }
+
+    .survey-panel,
+    .floating-btn {
+        bottom: 90px;
+    }
+
+    .gpr-widget-drawer {
+        width: 100%;
+        min-width: 0;
+        max-width: none;
+        border-left: 0;
+    }
+
+    .gpr-widget-drawer-header {
+        padding: 1rem;
+    }
+
+    .gpr-widget-content {
+        padding: 0.75rem;
+    }
+}
+
+.visitor-stats {
+    background: rgba(0,0,0,0.2); /* Latar lebih gelap sedikit */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+
+.visitor-stats li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dashed rgba(255,255,255,0.1); /* Garis putus-putus tipis */
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+
+.visitor-stats li:last-child {
+    border-bottom: none;
+}
+
+.visitor-stats i {
+    width: 20px;
+    text-align: center;
+    margin-right: 8px;
+    color: #CDB278;
+}
+
+.counter-val {
+    background-color: #CDB278;
+    color: #113F51;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 991.98px) {
+    #navbar-content {
+        max-height: 80vh;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    #navbar-content::after {
+        content: "";
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 30px;
+        pointer-events: none;
+        background: linear-gradient(to bottom, rgba(255,255,255,0), #ffffff);
+    }
+
+    #navbar-content::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-toggle {
+    width: 40px;
+    height: 38px;
+    border: 0;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.search-input {
+    width: 0;
+    opacity: 0;
+    padding: 0;
+    margin-left: 0;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    transition: width .3s ease, opacity .2s ease, margin-left .3s ease, padding .3s ease;
+}
+
+.search-box.active .search-input {
+    width: 220px;
+    opacity: 1;
+    margin-left: .5rem;
+    padding: .375rem .75rem;
+    border-color: var(--bs-border-color);
+}
+
+.search-box-icon {
+    color: #ffffff;
+}
+
+.accessibility-floating-btn {
+        position: fixed;
+        right: 25px;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: #0E5B73;
+        color: #fff;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        z-index: 999;
+        cursor: pointer;
+        font-size: 24px;
+        transition: background 0.3s, transform 0.3s, bottom 0.3s ease;
+    }
+
+    .accessibility-floating-btn:hover {
+        background: #0b4a5d;
+        transform: scale(1.05);
+    }
+
+</style>
+        <!--<script src="https://cdn.userway.org/widget.js" data-account="cRI9XmzyRx" data-trigger="accessibility-trigger"></script>-->
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header class="pu-header" style="background-color: #113F51">
+    <nav class="px-5 py-2 navbar navbar-expand-lg navbar-light navbar-dark shadow">
+        <div class="container-fluid">
+            <img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/logo_atas/01hc9gwh0kry136fvcpws0w1a2/01knjyf8hb7svzbn44p1a3sh3y.webp"
+                alt="logo-sigap" class="pu-logo" style="height: 50px">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbar-content">
+                <div class="hamburger-toggle">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse d-lg-block d-none">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="position: relative; left: 15%;">
+                    <li class="nav-item">
+                        <a class="nav-link pu-nav-color" aria-current="page" href="https://pkp.go.id">
+                            <i class="fas fa-home nav-icon" style="font-size: 18px;"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pu-nav-color" aria-current="page" href="https://pkp.go.id/berita">
+                            Berita
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link pu-nav-color dropdown-toggle" href="#">Profile</a>
+                        <div class="dropdown-menu shadow dropdown-center">
+                            <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-4 col-md-3 py-2 vertical-center">
+                                            <h5 class="fw-bold">Profile</h5>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-5 py-2">
+                                            <ul>
+                                                <a href="https://pkp.go.id/profil/tugas-dan-fungsi">
+                                                    <li>Tugas dan Fungsi</li>
+                                                </a>
+                                                <a href="https://pkp.go.id/profil/lokasi-kantor">
+                                                    <li>Lokasi Kantor</li>
+                                                </a>
+                                                <a href="https://pkp.go.id/profil/struktur-organisasi">
+                                                    <li>Struktur Organisasi</li>
+                                                </a>
+                                                <!--<a href="https://pkp.go.id/info_publik/artikel?slug=profil-singkat-pejabat">
+                                                    <li>Profil Pejabat</li>
+                                                </a> -->
+                                                <a href="https://pkp.go.id/profil/sejarah">
+                                                    <li>Sejarah</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-4 py-2 vertical-center-img">
+                                            <img src="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/frontpanel-assets/images/navbar-profile.jpg"
+                                                class="img-fluid navbar-pu-image" alt="image-menu" width="199"
+                                                height="141">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link pu-nav-color dropdown-toggle" href="#">Unit Organisasi</a>
+                        <div class="dropdown-menu shadow dropdown-center" style="width: 980px; transform: translateX(-56%)">
+                            <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                    <div class="row py-4">
+                                        <div class="col-md-6 gx-1" style="padding-left: 25px; border-right: 1px solid #b8b8b8">
+                                            <h5 style="margin-bottom: 12px"><strong>UNIT ORGANISASI</strong></h5>
+                                            <div class="row row-cols-1 g-2">
+                                                                                                    <div class="col">
+                                                        <ul class="list-unstyled d-flex flex-column gap-1">
+                                                            <li>
+                                                                <a href="https://pkp.go.id/" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                    Sekretariat Jenderal
+                                                                </a>
+                                                            </li>
+
+                                                            
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/unor/inspektorat-jenderal" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                        Inspektorat Jenderal
+                                                                    </a>
+                                                                </li>
+                                                            
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/unor/direktorat-jenderal-kawasan-permukiman" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                        Direktorat Jenderal Kawasan Permukiman
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/unor/direktorat-jenderal-perumahan-perdesaan" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                        Direktorat Jenderal Perumahan Perdesaan
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/unor/direktorat-jenderal-perumahan-perkotaan" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                        Direktorat Jenderal Perumahan Perkotaan
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/unor/direktorat-jenderal-tata-kelola-dan-pengendalian-risiko" class="pu-nav-color d-inline-block border-bottom pb-1">
+                                                                        Direktorat Jenderal Tata Kelola dan Pengendalian Risiko
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                        <div class="col-md-6 gx-1" style="padding-left: 48px">
+                                            <h5 style="margin-bottom: 12px"><strong>BALAI P3KP</strong></h5>
+                                            <div class="row row-cols-1 row-cols-md-2 g-3">
+                                                                                                    <div class="col">
+                                                        <ul class="list-unstyled d-flex flex-column gap-1">
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-jawa-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Jawa I
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-jawa-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Jawa II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-jawa-iii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Jawa III
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-jawa-iv" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Jawa IV
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-kalimantan-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Kalimantan I
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p3kp-kalimantan-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Kalimantan II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p3kp-maluku" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Maluku
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-nusa-tenggara-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Nusa Tenggara I
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-nusa-tenggara-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Nusa Tenggara II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-papua-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Papua I
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                                    <div class="col">
+                                                        <ul class="list-unstyled d-flex flex-column gap-1">
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-papua-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Papua II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-sulawesi-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sulawesi I
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p2p-sulawesi-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sulawesi II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-p3kp-sulawesi-iii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sulawesi III
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/balai-sumatera-i" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sumatera I
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/sumatera-ii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sumatera II
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-sumatera-iii" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sumatera III
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/p2p-sumatera-iv" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sumatera IV
+                                                                    </a>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <a href="https://pkp.go.id/balai/bp3kp-sumatera-v" class="pu-nav-color d-inline-block" style="border-bottom:1px solid #8498a0;">
+                                                                        Balai P3KP Sumatera V
+                                                                    </a>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link pu-nav-color dropdown-toggle" href="#">Publikasi & Produk</a>
+                        <div class="dropdown-menu shadow dropdown-center">
+                            <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-4 col-md-3 py-2 vertical-center">
+                                            <h5>Publikasi & Produk</h5>
+                                        </div>
+                                        
+                                        <div class="col-12 col-sm-4 col-md-5 py-2">
+                                            <ul>
+                                                <a href="https://pkp.go.id/artikel">
+                                                    <li>Publikasi Artikel</li>
+                                                </a>
+                                            </ul>
+                                            <!-- <ul>
+                                                                                            </ul> -->
+                                            <ul>
+                                                                                                    <a href="https://pkp.go.id/produk/anggaran-kementerian">
+                                                        <li>Anggaran Kementerian</li>
+                                                    </a>
+                                                                                                    <a href="https://pkp.go.id/produk/rencana-strategis">
+                                                        <li>Rencana Strategis</li>
+                                                    </a>
+                                                                                                    <a href="https://pkp.go.id/produk/laporan-kinerja-sekjen-pkp">
+                                                        <li>Laporan Kinerja Sekretariat Jenderal</li>
+                                                    </a>
+                                                                                                    <a href="https://pkp.go.id/produk/majalah-grya">
+                                                        <li>Majalah GRYA</li>
+                                                    </a>
+                                                                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-4 py-2 vertical-center-img">
+                                            <img src="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/frontpanel-assets/images/navbar-publikasi.jpg"
+                                                class="img-fluid navbar-pu-image" alt="image-menu" width="199"
+                                                height="141">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown dropdown-mega position-static">
+                        <a class="nav-link pu-nav-color dropdown-toggle" href="#">Informasi Publik</a>
+                        <div class="dropdown-menu shadow dropdown-center">
+                            <div class="mega-content px-4">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-4 col-md-3 py-2 vertical-center">
+                                            <h5>Informasi Publik</h5>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-5 py-2">
+                                            <ul>
+                                                                                                    <a href="https://e-ppid.pkp.go.id/">
+                                                        <li>PPID</li>
+                                                    </a>
+                                                                                                    <a href="/cek-penerima-bsps">
+                                                        <li>BSPS / Bedah Rumah</li>
+                                                    </a>
+                                                                                                    <a href="/cek-penerima-sanitasi">
+                                                        <li>Bantuan Peningkatan Sanitasi</li>
+                                                    </a>
+                                                                                                    <a href="/rencana-pengadaan-barang-jasa">
+                                                        <li>Rencana Pengadaan Barang dan Jasa</li>
+                                                    </a>
+                                                                                                    <a href="https://jdih.pkp.go.id/">
+                                                        <li>JDIH Kementerian PKP</li>
+                                                    </a>
+                                                                                                <a href="https://pkp.go.id/galeri/foto">
+                                                    <li>Galeri</li>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                        <div class="col-12 col-sm-4 col-md-4 py-2 vertical-center-img">
+                                            <img src="https://website-perumahan.s3.ap-southeast-1.amazonaws.com/frontpanel-assets/images/navbar-info.jpg"
+                                                class="img-fluid navbar-pu-image" alt="image-menu" width="199"
+                                                height="141">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <form class="search-form d-none d-lg-flex ms-auto" action="https://pkp.go.id/pencarian" method="get">
+                    <div class="search-box">
+                        <button type="button" class="search-toggle" id="searchToggle">
+                            <i class="fas fa-search search-box-icon"></i>
+                        </button>
+                        <input type="search" class="search-input" id="searchInput" name="q" placeholder="Search">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Mobile Dropdown Menu (d-lg-none) -->
+        <div class="d-lg-none collapse" id="navbar-content">
+            <ul class="navbar-nav pu-mobile-dropdown-menu">
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" aria-current="page" href="https://pkp.go.id">
+                        <i class="fas fa-home nav-icon" style="font-size: 18px;"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="https://pkp.go.id/berita">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#child-profile">Profile</a>
+                    <ul class="collapse" id="child-profile">
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/profil/tugas-dan-fungsi">Tugas dan Fungsi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/profil/lokasi-kantor">Lokasi Kantor</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/profil/struktur-organisasi">Struktur Organisasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/profil/unit-organisasi">Unit Organisasi</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link pu-nav-color" 
+                                href="https://pkp.go.id/profil/pejabat">Profil Singkat Pejabat</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/profil/sejarah">Sejarah</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#child-unker">Unit Organisasi</a>
+                    <ul id="child-unker" class="collapse">
+                        <li class="nav-item">
+                            <a href="https://pkp.go.id/" class="nav-link pu-nav-color">
+                                Sekretariat Jenderal
+                            </a>
+                        </li>
+
+                                                    
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/unor/inspektorat-jenderal" class="nav-link pu-nav-color">
+                                    Inspektorat Jenderal
+                                </a>
+                            </li>
+                                                    
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/unor/direktorat-jenderal-kawasan-permukiman" class="nav-link pu-nav-color">
+                                    Direktorat Jenderal Kawasan Permukiman
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/unor/direktorat-jenderal-perumahan-perdesaan" class="nav-link pu-nav-color">
+                                    Direktorat Jenderal Perumahan Perdesaan
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/unor/direktorat-jenderal-perumahan-perkotaan" class="nav-link pu-nav-color">
+                                    Direktorat Jenderal Perumahan Perkotaan
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/unor/direktorat-jenderal-tata-kelola-dan-pengendalian-risiko" class="nav-link pu-nav-color">
+                                    Direktorat Jenderal Tata Kelola dan Pengendalian Risiko
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#child-balai">Balai BP3KP</a>
+                    <ul id="child-balai" class="collapse">
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-jawa-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Jawa I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-jawa-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Jawa II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-jawa-iii" class="nav-link pu-nav-color">
+                                    Balai P3KP Jawa III
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-jawa-iv" class="nav-link pu-nav-color">
+                                    Balai P3KP Jawa IV
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-kalimantan-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Kalimantan I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p3kp-kalimantan-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Kalimantan II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p3kp-maluku" class="nav-link pu-nav-color">
+                                    Balai P3KP Maluku
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-nusa-tenggara-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Nusa Tenggara I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-nusa-tenggara-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Nusa Tenggara II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-papua-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Papua I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-papua-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Papua II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-sulawesi-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Sulawesi I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p2p-sulawesi-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Sulawesi II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-p3kp-sulawesi-iii" class="nav-link pu-nav-color">
+                                    Balai P3KP Sulawesi III
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/balai-sumatera-i" class="nav-link pu-nav-color">
+                                    Balai P3KP Sumatera I
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/sumatera-ii" class="nav-link pu-nav-color">
+                                    Balai P3KP Sumatera II
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-sumatera-iii" class="nav-link pu-nav-color">
+                                    Balai P3KP Sumatera III
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/p2p-sumatera-iv" class="nav-link pu-nav-color">
+                                    Balai P3KP Sumatera IV
+                                </a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a href="https://pkp.go.id/balai/bp3kp-sumatera-v" class="nav-link pu-nav-color">
+                                    Balai P3KP Sumatera V
+                                </a>
+                            </li>
+                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="#" data-bs-toggle="collapse" data-bs-target="#child-public">Publikasi & Produk</a>
+                    <ul id="child-public" class="collapse">
+                        <li class="nav-item">
+                            <a class="nav-link pu-nav-color"
+                                href="https://pkp.go.id/artikel">Publikasi Artikel</a>
+                        </li>
+                    </ul>
+                    <!-- <ul id="child-public" class="collapse">
+                                            </ul> -->
+                    <ul id="child-public" class="collapse">
+                                                    <a class="nav-link pu-nav-color" href="https://pkp.go.id/produk/anggaran-kementerian">
+                                <li>Anggaran Kementerian</li>
+                            </a>
+                                                    <a class="nav-link pu-nav-color" href="https://pkp.go.id/produk/rencana-strategis">
+                                <li>Rencana Strategis</li>
+                            </a>
+                                                    <a class="nav-link pu-nav-color" href="https://pkp.go.id/produk/laporan-kinerja-sekjen-pkp">
+                                <li>Laporan Kinerja Sekretariat Jenderal</li>
+                            </a>
+                                                    <a class="nav-link pu-nav-color" href="https://pkp.go.id/produk/majalah-grya">
+                                <li>Majalah GRYA</li>
+                            </a>
+                                            </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pu-nav-color" href="#" data-bs-toggle="collapse"
+                        data-bs-target="#child-public-info">Informasi Publik</a>
+                    <ul class="collapse" id="child-public-info">
+                                                    <li class="nav-item">
+                                <a class="nav-link pu-nav-color"
+                                    href="https://e-ppid.pkp.go.id/">PPID</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link pu-nav-color"
+                                    href="/cek-penerima-bsps">BSPS / Bedah Rumah</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link pu-nav-color"
+                                    href="/cek-penerima-sanitasi">Bantuan Peningkatan Sanitasi</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link pu-nav-color"
+                                    href="/rencana-pengadaan-barang-jasa">Rencana Pengadaan Barang dan Jasa</a>
+                            </li>
+                                                    <li class="nav-item">
+                                <a class="nav-link pu-nav-color"
+                                    href="https://jdih.pkp.go.id/">JDIH Kementerian PKP</a>
+                            </li>
+                                            </ul>
+                    <ul class="collapse" id="child-public-info">
+                        <a class="nav-link pu-nav-color" href="https://pkp.go.id/galeri/foto">
+                            Galeri
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex ms-auto" action="https://pkp.go.id/pencarian" method="get">
+                <div class="input-group">
+                    <input class="form-control border rounded-pill" style="max-height: 35px; margin-top: 10px;" type="search" name="q" placeholder="Search" required>
+                </div>
+            </form>
+        </div>
+    </nav>
+</header>
+                
+        	<head>
+		<meta property="og:title" content="Setujui Tenor KPR FLPP hingga 40 Tahun, Pemerintah Pertahankan Suku Bunga Rumah Subsidi 5 Persen dan Rusun Subsidi 6 Persen">
+        <meta property="og:description" content="Jakarta – Pemerintah terus memperkuat akses masyarakat berpenghasilan rendah (MBR) terhadap hunian layak dan terjangkau melalui berbagai kebijakan pem...">
+        <meta property="og:image" content="[{&quot;id&quot;:&quot;01kvyazxpkeepqshpmqjvnq8q3&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:1,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;270997c6-967a-41e7-8894-5d7bcf46bee1.jpeg&quot;},&quot;path&quot;:&quot;01kvyazxpqhzhn0ea75fyjpea3.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:50.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:51.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb05pc1ezg8kd6amk6wjeg&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;ca81287d-f082-4713-ba21-9d467c0e343f.jpeg&quot;},&quot;path&quot;:&quot;01kvyb05peyex1swpngf3wkfgm.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb0d3xr2r50xj5pgys0cj5&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;46f4be15-6506-4d0c-b291-ee296171a501.jpeg&quot;},&quot;path&quot;:&quot;01kvyb0d3yct31bmb4mcp2j8ss.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:51:06.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:51:07.000000Z&quot;}]">
+        <meta property="og:url" content="https://pkp.go.id/berita/detail/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen">
+        <meta property="og:type" content="article">
+			<meta property="og:title" content="Setujui Tenor KPR FLPP hingga 40 Tahun, Pemerintah Pertahankan Suku Bunga Rumah Subsidi 5 Persen dan Rusun Subsidi 6 Persen">
+	<meta property="og:description" content="Jakarta – Pemerintah terus memperkuat akses masyarakat berpenghasilan rendah (MBR) terhadap hunian layak dan terjangkau melalui berbagai kebijakan pem...">
+	<meta property="og:image" content="[{&quot;id&quot;:&quot;01kvyazxpkeepqshpmqjvnq8q3&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:1,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;270997c6-967a-41e7-8894-5d7bcf46bee1.jpeg&quot;},&quot;path&quot;:&quot;01kvyazxpqhzhn0ea75fyjpea3.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:50.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:51.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb05pc1ezg8kd6amk6wjeg&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;ca81287d-f082-4713-ba21-9d467c0e343f.jpeg&quot;},&quot;path&quot;:&quot;01kvyb05peyex1swpngf3wkfgm.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb0d3xr2r50xj5pgys0cj5&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;46f4be15-6506-4d0c-b291-ee296171a501.jpeg&quot;},&quot;path&quot;:&quot;01kvyb0d3yct31bmb4mcp2j8ss.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:51:06.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:51:07.000000Z&quot;}]">
+	<meta property="og:url" content="https://pkp.go.id/berita/detail/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen">
+	<meta property="og:type" content="article">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Setujui Tenor KPR FLPP hingga 40 Tahun, Pemerintah Pertahankan Suku Bunga Rumah Subsidi 5 Persen dan Rusun Subsidi 6 Persen">
+	<meta name="twitter:description" content="Jakarta – Pemerintah terus memperkuat akses masyarakat berpenghasilan rendah (MBR) terhadap hunian layak dan terjangkau melalui berbagai kebijakan pem...">
+	<meta name="twitter:image" content="[{&quot;id&quot;:&quot;01kvyazxpkeepqshpmqjvnq8q3&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:1,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;270997c6-967a-41e7-8894-5d7bcf46bee1.jpeg&quot;},&quot;path&quot;:&quot;01kvyazxpqhzhn0ea75fyjpea3.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:50.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:51.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb05pc1ezg8kd6amk6wjeg&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;ca81287d-f082-4713-ba21-9d467c0e343f.jpeg&quot;},&quot;path&quot;:&quot;01kvyb05peyex1swpngf3wkfgm.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:50:59.000000Z&quot;},{&quot;id&quot;:&quot;01kvyb0d3xr2r50xj5pgys0cj5&quot;,&quot;organisasi_id&quot;:&quot;01hc9gwh0kry136fvcpws0w1a2&quot;,&quot;berita_id&quot;:&quot;01kvyazkh5v5wv96xrbg3gpe9c&quot;,&quot;jenis&quot;:&quot;image&quot;,&quot;slider_head&quot;:0,&quot;alt&quot;:null,&quot;file_info&quot;:{&quot;original_filename&quot;:&quot;46f4be15-6506-4d0c-b291-ee296171a501.jpeg&quot;},&quot;path&quot;:&quot;01kvyb0d3yct31bmb4mcp2j8ss.webp&quot;,&quot;created_at&quot;:&quot;2026-06-25T02:51:06.000000Z&quot;,&quot;updated_at&quot;:&quot;2026-06-25T02:51:07.000000Z&quot;}]">
+	</head>
+
+	<!-- Breadcrumb -->
+	<div class="d-flex justify-content-end bg-body-tertiary">
+		<nav aria-label="breadcrumb">
+			<ol class="breadcrumb breadcrumb-chevron p-3 mx-4" style="margin-bottom: 0 !important;">
+				<li class="breadcrumb-item">
+					<a class="link-body-emphasis" href="#">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+							<path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z" />
+						</svg>
+						<span class="visually-hidden">Home</span>
+					</a>
+				</li>
+				<li class="breadcrumb-item active" aria-current="page">Berita</li>
+			</ol>
+		</nav>
+	</div>
+
+	<!-- Main content -->
+	<div class="container">
+		<!-- Main News -->
+		<div class="row g-5 pt-5">
+			<div class="col-md-8">
+				<h4 class="fw-bold link-body-emphasis mb-1">Setujui Tenor KPR FLPP hingga 40 Tahun, Pemerintah Pertahankan Suku Bunga Rumah Subsidi 5 Persen dan Rusun Subsidi 6 Persen</h4>
+				<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+				</svg>
+				<span class="text-muted" style="vertical-align: middle;">
+					Rabu, 24 Juni 2026
+				</span>
+				<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+					<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+				</svg>
+				<span class="tex-muted" style="vertical-align: middle; margin-left:4px;">9262 kali</span>
+			</div>
+		</div>
+
+		<!-- Sticky sidebar -->
+		<div class="row pb-5">
+			<div class="col-md-8">
+				<article class="blog-post">
+					<div class="row row-cols-1 g-3 mt-3">
+						<div class="col">
+							<div class="">
+																	<!-- Swiper -->
+									<div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+										<div class="swiper-wrapper">
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/01kvyazxpqhzhn0ea75fyjpea3.webp"
+														style="width: 100%; height: auto; border-bottom: 10px solid #D5C58A; border-bottom-right-radius: 60px;">
+												</div>
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/01kvyb05peyex1swpngf3wkfgm.webp"
+														style="width: 100%; height: auto; border-bottom: 10px solid #D5C58A; border-bottom-right-radius: 60px;">
+												</div>
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/01kvyb0d3yct31bmb4mcp2j8ss.webp"
+														style="width: 100%; height: auto; border-bottom: 10px solid #D5C58A; border-bottom-right-radius: 60px;">
+												</div>
+																					</div>
+										<div class="swiper-button-next"></div>
+										<div class="swiper-button-prev"></div>
+									</div>
+									<div thumbsSlider="" class="swiper mySwiper">
+										<div class="swiper-wrapper">
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/thumb-01kvyazxpqhzhn0ea75fyjpea3.webp" />
+												</div>
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/thumb-01kvyb05peyex1swpngf3wkfgm.webp" />
+												</div>
+																							<div class="swiper-slide">
+													<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/setujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen/thumb-01kvyb0d3yct31bmb4mcp2j8ss.webp" />
+												</div>
+																					</div>
+									</div>
+								
+								<div class="news-share d-flex align-items-center flex-wrap gap-2 mt-4">
+									<span class="fw-semibold me-2">Bagikan:</span>
+
+									<a href="https://api.whatsapp.com/send?text=Setujui+Tenor+KPR+FLPP+hingga+40+Tahun%2C+Pemerintah+Pertahankan+Suku+Bunga+Rumah+Subsidi+5+Persen+dan+Rusun+Subsidi+6+Persen+https%3A%2F%2Fpkp.go.id%2Fberita%2Fdetail%2Fsetujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen"
+										class="share-btn whatsapp" target="_blank" title="Bagikan ke WhatsApp">
+										<i class="fab fa-whatsapp"></i>
+									</a>
+
+									<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fpkp.go.id%2Fberita%2Fdetail%2Fsetujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen"
+										class="share-btn facebook" target="_blank" title="Bagikan ke Facebook">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+
+									<a href="https://twitter.com/intent/tweet?text=Setujui+Tenor+KPR+FLPP+hingga+40+Tahun%2C+Pemerintah+Pertahankan+Suku+Bunga+Rumah+Subsidi+5+Persen+dan+Rusun+Subsidi+6+Persen&url=https%3A%2F%2Fpkp.go.id%2Fberita%2Fdetail%2Fsetujui-tenor-kpr-flpp-hingga-40-tahun-pemerintah-pertahankan-suku-bunga-rumah-subsidi-5-persen-dan-rusun-subsidi-6-persen"
+										class="share-btn twitter" target="_blank" title="Bagikan ke X">
+										<i class="fab fa-twitter"></i>
+									</a>
+
+									<a href="javascript:void(0)" class="share-btn copy" id="copy-link" title="Salin Link">
+										<i class="fas fa-link"></i>
+									</a>
+								</div>
+
+								<div class="card-body mt-3">
+									<p class="card-text"><p>Jakarta – Pemerintah terus memperkuat akses masyarakat berpenghasilan rendah (MBR) terhadap hunian layak dan terjangkau melalui berbagai kebijakan pembiayaan perumahan. &nbsp;Dalam Rapat Komite Tapera yang dipimpin Menteri Perumahan dan Kawasan Permukiman (PKP) Maruarar Sirait selaku Ketua Komite Tapera di Aula Jusuf Anwar, Direktorat Jenderal Perbendaharaan Kementerian Keuangan, Jakarta Pusat, Rabu (24/6/2026), disepakati sejumlah langkah strategis untuk mempercepat penyaluran Fasilitas Likuiditas Pembiayaan Perumahan (FLPP) sekaligus mendukung pencapaian Program 3 Juta Rumah.</p><p>Rapat tersebut dihadiri Menteri Keuangan Purbaya beserta jajaran, Menteri Ketenagakerjaan Yassierli beserta jajaran, Anggota Dewan Komisioner OJK Friderica Widyasari Dewi beserta jajaran, Komisioner BP Tapera Heru Pudyo Nugroho beserta jajaran, serta pejabat tinggi Kementerian PKP.</p><p>Salah satu agenda utama rapat adalah evaluasi perkembangan penyaluran FLPP Tahun 2026. Hingga 23 Juni 2026, realisasi penyaluran FLPP telah mencapai 81.268 unit rumah atau 23,22 persen dari target 350.000 unit rumah dengan nilai pembiayaan mencapai Rp10,1 triliun. Sementara itu, apabila ditambah dengan rumah yang telah memasuki tahap akad kredit, capaian mencapai 103.003 unit atau sekitar 29,43 persen dari target tahunan.</p><p>Dalam paparannya, Komisioner BP Tapera Heru Pudyo Nugroho menjelaskan berbagai strategi yang akan ditempuh untuk memastikan target 350.000 unit FLPP dapat tercapai hingga akhir tahun. "Strategi capaian 350.000 unit dari BP Tapera di antaranya adalah penguatan target market segmentasi, penguatan promosi, penguatan sinergi dan kolaborasi, penguatan digital marketing, serta implementasi kebijakan maksimal tenor pembiayaan FLPP 40 tahun," ujar Heru.</p><p>Rapat juga membahas berbagai tantangan yang dihadapi dalam pelaksanaan program FLPP, termasuk dampak kebijakan Lahan Sawah Dilindungi (LSD) dan Lahan Baku Sawah (LBS) terhadap penerbitan perizinan dan sertifikat. Untuk mengatasi hal tersebut, pemerintah telah menerbitkan Surat Keputusan Bersama Menteri Dalam Negeri dan Menteri ATR/BPN sebagai solusi percepatan.<br>Selain itu, implementasi relaksasi Sistem Layanan Informasi Keuangan (SLIK) OJK turut menjadi perhatian.<br><br>OJK telah memberikan dukungan melalui sejumlah kebijakan, antara lain percepatan pengkinian pelaporan data kredit yang telah lunas, pembatasan informasi nilai kredit yang ditampilkan dalam SLIK, serta pemberian akses langsung kepada BP Tapera untuk melakukan pengecekan data SLIK.</p><p>Dalam rapat tersebut, Komite Tapera juga membahas tindak lanjut arahan Presiden Republik Indonesia terkait implementasi skema KPR FLPP hingga 40 tahun. Pembahasan dilakukan secara mendalam mencakup aspek uang muka (DP), besaran angsuran, dan tingkat keterjangkauan masyarakat.</p><p>Untuk rumah subsidi tapak, pemerintah mengkaji skema angsuran sekitar Rp500 ribuan per bulan melalui penerapan suku bunga berjenjang, sementara untuk rumah susun subsidi ditargetkan angsuran sekitar Rp700 ribuan per bulan melalui mekanisme yang sama.</p><p>Di tengah fluktuasi suku bunga pasar keuangan, pemerintah tetap memberikan perlindungan penuh bagi masyarakat berpenghasilan rendah. Kementerian PKP memastikan suku bunga KPR FLPP rumah tapak tetap sebesar 5 persen dan rumah susun subsidi sebesar 6 persen hingga masa tenor berakhir. Stabilitas kebijakan tersebut didukung oleh pengelolaan likuiditas yang dilakukan bersama oleh BP Tapera dan Danantara Indonesia.</p><p>Menteri Ketenagakerjaan Yassierli menegaskan pentingnya penyediaan skema pembiayaan yang lebih menarik bagi para pekerja dan buruh agar semakin banyak masyarakat yang dapat memiliki rumah layak.</p><p>"Kami berharap BP Tapera punya mapping untuk bagaimana para pekerja dan buruh memiliki rumah dengan skema yang menarik. Karena perumahan layak menjadi upaya pemerintah untuk hadir memberikan rumah layak bagi buruh, itulah tugas kita yang ada di komite ini," ujar Yassierli.</p><p>Pembahasan lainnya adalah pengembangan skema pembiayaan FLPP untuk satuan rumah susun subsidi. Dalam kesempatan tersebut, Direktur Jenderal Perumahan Perkotaan Sri Haryati menjelaskan konsep peminatan KPR Rusun Inden, yaitu mekanisme pendaftaran calon pembeli rumah susun yang belum selesai dibangun melalui fasilitas pembiayaan kredit perbankan.</p><p>Sesuai Keputusan Menteri PKP Nomor 23 Tahun 2026, pemerintah telah menetapkan empat perubahan fundamental untuk rumah susun subsidi, yakni luas bangunan 21–45 meter persegi, tenor pembiayaan hingga 30 tahun, suku bunga 6 persen, dan penyesuaian harga jual per meter persegi berdasarkan wilayah.</p><p>Menteri Keuangan Purbaya menekankan pentingnya menjaga kualitas pembangunan rumah susun subsidi agar semakin diminati masyarakat. "Saya ingin rusun subsidi ini dibuat dengan kualitas yang bagus agar lebih menarik peminatan untuk dihuni dan kami juga akan menyesuaikan terkait tenor dan luasannya," ujar Menteri Purbaya.</p><p>Pada akhir rapat, Komite Tapera membahas sejumlah rekomendasi strategis yang diajukan BP Tapera, antara lain penetapan kuota penyaluran KPR FLPP Tahun 2026, perpanjangan tenor KPR subsidi, pemberian insentif peminatan untuk KPR Rusun Inden, penggunaan mekanisme PPN Ditanggung Pemerintah (DTP), penyesuaian premi asuransi, serta opsi penerapan suku bunga berjenjang untuk menurunkan angsuran masyarakat berpenghasilan rendah.</p><p>Dari berbagai usulan yang dibahas, Komite Tapera menyetujui sejumlah kebijakan penting, termasuk mempertahankan suku bunga FLPP rumah tapak sebesar 5 persen, suku bunga rumah susun subsidi sebesar 6 persen, serta membuka peluang implementasi tenor pembiayaan hingga 40 tahun guna meningkatkan keterjangkauan masyarakat.</p><p>Menteri PKP Maruarar Sirait menegaskan bahwa kebijakan tersebut merupakan bentuk komitmen pemerintah dalam menjalankan arahan Presiden Prabowo Subianto untuk memperluas akses masyarakat terhadap hunian yang layak dan terjangkau. "Kita konsisten sebagaimana arahan Presiden Prabowo untuk suku bunga rumah subsidi tapak tetap 5 persen, rumah susun subsidi 6 persen dengan tenor bisa 40 tahun," tegas Menteri PKP Maruarar Sirait.</p><p>Melalui berbagai kebijakan tersebut, pemerintah optimistis target penyaluran FLPP sebanyak 350.000 unit rumah pada tahun 2026 dapat tercapai sekaligus memperkuat pelaksanaan Program 3 Juta Rumah sebagai salah satu program strategis nasional untuk meningkatkan kesejahteraan masyarakat Indonesia. (*)</p></p>
+																	</div>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
+
+			<div class="col-md-4 mt-3 px-4">
+				<div class="position-sticky" style="top: 7rem;">
+	<h5 class="mt-2">Berita Terkait</h5>
+	<ul class="list-unstyled">
+					<li>
+				<a class="related-card d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center 
+						link-body-emphasis text-decoration-none border border-1 rounded my-3 shadow-sm"
+						href="https://pkp.go.id/berita/detail/kementerian-pkp-konsultasikan-pelaksanaan-program-perumahan-bersama-bpkp">
+
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/kementerian-pkp-konsultasikan-pelaksanaan-program-perumahan-bersama-bpkp/thumb-01m639t32465eaep5tg81vnxh1.webp"
+						alt="news-image"
+						class="rounded-start img-pu-news-mobile"
+						style="width: 125px; height: 125px; object-fit: cover;">
+
+					<div class="col-lg-7 desc-pu-news-mobile">
+						<h6 class="mb-2 related-title">
+							KEMENTERIAN PKP KONSULTASIKAN PELAKSANAAN PROGRAM PERUMAHAN BERSAMA BPKP
+						</h6>
+
+						<div class="related-meta text-body-secondary">
+							<!-- ikon kalender -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+								<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+							</svg>
+							<span>
+								28 Oktober 2026
+							</span>
+
+							<!-- ikon mata -->
+							<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+							</svg>
+							<span>
+								207 kali
+							</span>
+						</div>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a class="related-card d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center 
+						link-body-emphasis text-decoration-none border border-1 rounded my-3 shadow-sm"
+						href="https://pkp.go.id/berita/detail/tingkatkan-dampak-ekonomi-kementerian-pkp-integrasikan-bedah-rumah-dengan-sertifikasi-rumah-gratis-dan-pnm">
+
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/tingkatkan-dampak-ekonomi-kementerian-pkp-integrasikan-bedah-rumah-dengan-sertifikasi-rumah-gratis-dan-pnm/thumb-01m5rnknazhf21hr4eq8jbtc6t.webp"
+						alt="news-image"
+						class="rounded-start img-pu-news-mobile"
+						style="width: 125px; height: 125px; object-fit: cover;">
+
+					<div class="col-lg-7 desc-pu-news-mobile">
+						<h6 class="mb-2 related-title">
+							TINGKATKAN DAMPAK EKONOMI, KEMENTERIAN PKP INTEGRASIKAN BEDAH RUMAH DENGAN SERTIFIKASI RUMAH GRATIS DAN PNM
+						</h6>
+
+						<div class="related-meta text-body-secondary">
+							<!-- ikon kalender -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+								<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+							</svg>
+							<span>
+								24 Oktober 2026
+							</span>
+
+							<!-- ikon mata -->
+							<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+							</svg>
+							<span>
+								953 kali
+							</span>
+						</div>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a class="related-card d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center 
+						link-body-emphasis text-decoration-none border border-1 rounded my-3 shadow-sm"
+						href="https://pkp.go.id/berita/detail/menteri-ara-mendagri-kapolda-metro-jaya-kolaborasi-bedah-rumah-di-kampung-ambon-jakbar">
+
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/menteri-ara-mendagri-kapolda-metro-jaya-kolaborasi-bedah-rumah-di-kampung-ambon-jakbar/thumb-01m5qdategqvmg5bh36zjb265r.webp"
+						alt="news-image"
+						class="rounded-start img-pu-news-mobile"
+						style="width: 125px; height: 125px; object-fit: cover;">
+
+					<div class="col-lg-7 desc-pu-news-mobile">
+						<h6 class="mb-2 related-title">
+							MENTERI ARA, MENDAGRI, DAN KAPOLDA METRO JAYA KOLABORASI BEDAH RUMAH DI KAMPUNG AMBON JAKBAR
+						</h6>
+
+						<div class="related-meta text-body-secondary">
+							<!-- ikon kalender -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+								<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+							</svg>
+							<span>
+								24 Oktober 2026
+							</span>
+
+							<!-- ikon mata -->
+							<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+							</svg>
+							<span>
+								775 kali
+							</span>
+						</div>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a class="related-card d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center 
+						link-body-emphasis text-decoration-none border border-1 rounded my-3 shadow-sm"
+						href="https://pkp.go.id/berita/detail/hingga-15-oktober-2026-pembangunan-dan-peningkatan-kualitas-rumah-capai-1790081-unit">
+
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/hingga-15-oktober-2026-pembangunan-dan-peningkatan-kualitas-rumah-capai-1790081-unit/thumb-01m5nm2cpeatm3yndajmcpc6he.webp"
+						alt="news-image"
+						class="rounded-start img-pu-news-mobile"
+						style="width: 125px; height: 125px; object-fit: cover;">
+
+					<div class="col-lg-7 desc-pu-news-mobile">
+						<h6 class="mb-2 related-title">
+							HINGGA 15 OKTOBER 2026, PEMBANGUNAN DAN PENINGKATAN KUALITAS RUMAH  CAPAI 1.790.081 UNIT
+						</h6>
+
+						<div class="related-meta text-body-secondary">
+							<!-- ikon kalender -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+								<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+							</svg>
+							<span>
+								23 Oktober 2026
+							</span>
+
+							<!-- ikon mata -->
+							<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+							</svg>
+							<span>
+								848 kali
+							</span>
+						</div>
+					</div>
+				</a>
+			</li>
+					<li>
+				<a class="related-card d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center 
+						link-body-emphasis text-decoration-none border border-1 rounded my-3 shadow-sm"
+						href="https://pkp.go.id/berita/detail/perkuat-tata-kelola-pengadaan-menteri-ara-tekankan-prinsip-bebas-korupsi-berkualitas-tepat-sasaran-dan-tepat-waktu">
+
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/berita/perkuat-tata-kelola-pengadaan-menteri-ara-tekankan-prinsip-bebas-korupsi-berkualitas-tepat-sasaran-dan-tepat-waktu/thumb-01m5j180v6krcwxbqf3kkgv24z.webp"
+						alt="news-image"
+						class="rounded-start img-pu-news-mobile"
+						style="width: 125px; height: 125px; object-fit: cover;">
+
+					<div class="col-lg-7 desc-pu-news-mobile">
+						<h6 class="mb-2 related-title">
+							PERKUAT TATA KELOLA PENGADAAN, MENTERI ARA TEKANKAN PRINSIP BEBAS KORUPSI, BERKUALITAS, TEPAT SASARAN, DAN TEPAT WAKTU
+						</h6>
+
+						<div class="related-meta text-body-secondary">
+							<!-- ikon kalender -->
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" style="vertical-align: middle; margin-right:4px;" fill="currentColor" viewBox="0 0 16 16">
+								<path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+							</svg>
+							<span>
+								22 Oktober 2026
+							</span>
+
+							<!-- ikon mata -->
+							<svg width="14" height="14" style="vertical-align: middle; margin-left:6px;" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+							</svg>
+							<span>
+								964 kali
+							</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			</ul>
+</div>
+
+<style>
+    .related-card {
+        width: 100%;
+        max-width: 360px;
+    }
+    .related-title {
+        font-size: 0.80rem;
+        line-height: 1.2;
+    }
+    .related-meta {
+        font-size: 0.72rem;
+        display: flex;
+        gap: 6px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .related-icon {
+        width: 12px;
+        height: 12px;
+        vertical-align: middle;
+    }
+</style>			</div>
+		</div>
+	</div>
+
+        <footer>
+	<div class="footer-content">
+		<div class="footer-col">
+			<div class="footer-head">
+				<div class="footer-logo pb-0">
+					<img src="https://pkp.go.id/s3/website-perumahan/prod-storage/perumahan/logo_bawah/01hc9gwh0kry136fvcpws0w1a2/01kd2gac0g1r39rvp656grshvw.webp"
+						alt="logo-pkp" class="pu-logo" style="height: 60px">
+				</div>
+
+									<div>
+						<address>
+							<div>
+								<address>
+									<div style="display: flex; margin-top: 20px; margin-bottom: 8px;">
+										<p><strong>Alamat:</strong></p>
+										<p style="padding-left: 10px">Gedung Wisma Mandiri 2
+Jl. M.H Thamrin No. 5, Kebon Sirih, Menteng, Jakarta Pusat</p>
+									</div>
+								</address>
+							</div>	
+						</address>
+					</div>
+								<div style="margin-top: 20px;">
+											<a href="https://www.instagram.com/kementerianpkp/" style="color:white; margin-right:15px; font-size:1.5rem;">
+							<i class="fab fa-instagram "></i>
+						</a>
+											<a href="https://www.youtube.com/@KementerianPKP" style="color:white; margin-right:15px; font-size:1.5rem;">
+							<i class="fab fa-youtube "></i>
+						</a>
+									</div>
+			</div>
+		</div>
+
+		<div class="footer-col">
+			<h4>Tautan Terkait</h4>
+			<ul style="list-style: none; padding-left: 0;">
+									<li>
+						<a href="https://www.lapor.go.id/">SP4N-LAPOR</a>
+					</li>
+									<li>
+						<a href="mailto:kotaksurat-kementerian@pkp.go.id">Hubungi Kami (E-mail)</a>
+					</li>
+									<li>
+						<a href="https://e-ppid.pkp.go.id/">PPID Kementerian PKP</a>
+					</li>
+									<li>
+						<a href="https://jdih.pkp.go.id/">JDIH Kementerian PKP</a>
+					</li>
+									<li>
+						<a href="https://pkp.go.id/faq">FAQ</a>
+					</li>
+							</ul>
+		</div>
+
+		<div class="footer-col">
+			<h4>Statistik Pengunjung</h4>
+			<ul class="visitor-stats">         
+				<li>
+					<span><i class="fas fa-user-clock"></i> Hari Ini</span>
+					<span class="counter-val">
+						                            1,649
+                        					</span>
+				</li>
+				<li>
+					<span><i class="fas fa-calendar-check"></i> Bulan Ini</span>
+					<span class="counter-val">
+						                            128,739
+                        					</span>
+				</li>
+				<li>
+					<span><i class="fas fa-chart-line"></i> Total Kunjungan</span>
+					<span class="counter-val">
+						                            825,430
+                        					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="footer-bottom">
+		Hak Cipta &copy; 2025-2026 Kementerian Perumahan dan Kawasan Permukiman
+	</div>
+</footer>
+
+        <button type="button" id="gpr-widget-toggle" class="gpr-widget-toggle"
+            aria-label="Buka informasi pemerintah" aria-controls="gpr-widget-drawer" aria-expanded="false">
+            <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
+            <span>Info Pemerintah</span>
+        </button>
+        <div id="gpr-widget-backdrop" class="gpr-widget-backdrop" aria-hidden="true"></div>
+        <aside id="gpr-widget-drawer" class="gpr-widget-drawer" role="dialog" aria-modal="true"
+            aria-labelledby="gpr-widget-title" aria-hidden="true" inert>
+            <div class="gpr-widget-drawer-header">
+                <div>
+                    <span class="gpr-widget-eyebrow">GPR KOMDIGI</span>
+                    <h2 id="gpr-widget-title">Informasi Pemerintah</h2>
+                </div>
+                <button type="button" id="gpr-widget-close" class="gpr-widget-close" aria-label="Tutup informasi pemerintah">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="gpr-kominfo-widget-container" class="gpr-widget-content"></div>
+        </aside>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-8XRR045FYT"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-8XRR045FYT');
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/page-flip/dist/js/page-flip.browser.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sienna-accessibility/dist/sienna-accessibility.umd.js" async></script>
+        <script type="text/javascript" src="https://widget.komdigi.go.id/gpr-widget-kominfo.min.js"></script>
+        	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <script>
+            const gprWidgetToggle = document.getElementById('gpr-widget-toggle');
+            const gprWidgetDrawer = document.getElementById('gpr-widget-drawer');
+            const gprWidgetBackdrop = document.getElementById('gpr-widget-backdrop');
+            const gprWidgetClose = document.getElementById('gpr-widget-close');
+
+            function openGprWidget() {
+                gprWidgetDrawer.classList.add('is-open');
+                gprWidgetBackdrop.classList.add('is-open');
+                gprWidgetDrawer.setAttribute('aria-hidden', 'false');
+                gprWidgetDrawer.removeAttribute('inert');
+                gprWidgetToggle.setAttribute('aria-expanded', 'true');
+                document.body.classList.add('gpr-widget-open');
+                gprWidgetClose.focus();
+            }
+
+            function closeGprWidget() {
+                gprWidgetDrawer.classList.remove('is-open');
+                gprWidgetBackdrop.classList.remove('is-open');
+                gprWidgetDrawer.setAttribute('aria-hidden', 'true');
+                gprWidgetDrawer.setAttribute('inert', '');
+                gprWidgetToggle.setAttribute('aria-expanded', 'false');
+                document.body.classList.remove('gpr-widget-open');
+                gprWidgetToggle.focus();
+            }
+
+            gprWidgetToggle.addEventListener('click', openGprWidget);
+            gprWidgetClose.addEventListener('click', closeGprWidget);
+            gprWidgetBackdrop.addEventListener('click', closeGprWidget);
+            document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape' && gprWidgetDrawer.classList.contains('is-open')) {
+                    closeGprWidget();
+                }
+            });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $('.navbar-nav li.dropdown').hover(
+                    function() {
+                        $(this).find('.dropdown-menu').addClass('fade-in');
+                    },
+                    function() {
+                        var $dropdownMenu = $(this).find('.dropdown-menu');
+                        $dropdownMenu.removeClass('fade-in');
+                        $dropdownMenu.one('webkitAnimationEnd oanimationend msAnimationEnd animationend',
+                            function() {
+                                $dropdownMenu.removeClass('show');
+                            });
+                    }
+                );
+
+                $('.dropdown').on('mouseover', function() {
+                    $(this).addClass('show');
+                });
+
+                $('.dropdown').on('mouseleave', function() {
+                    $(this).removeClass('show');
+                });
+            });
+        </script>
+
+        <script>
+            document.addEventListener('click', function(e) {
+                if (e.target.classList.contains('hamburger-toggle')) {
+                    e.target.children[0].classList.toggle('active');
+                }
+            });
+        </script>
+        	<script>
+		var swiper = new Swiper(".mySwiper", {
+				spaceBetween: 10,
+				slidesPerView: 4,
+				freeMode: true,
+				watchSlidesProgress: true,
+		});
+		var swiper2 = new Swiper(".mySwiper2", {
+				spaceBetween: 10,
+				navigation: {
+						nextEl: ".swiper-button-next",
+						prevEl: ".swiper-button-prev"
+				},
+				thumbs: { swiper: swiper },
+		});
+
+		document.getElementById('copy-link').addEventListener('click', async () => {
+			await navigator.clipboard.writeText(window.location.href);
+			alert('Link berhasil disalin');
+		});
+
+		$('#myTab a').on('click', function(e) {
+				e.preventDefault()
+				$(this).tab('show')
+		});
+	</script>
+
+        <!-- <button id="accessibility-trigger" class="accessibility-floating-btn" title="Aksesibilitas">
+            <i class="fas fa-universal-access" style="font-size: 36px;"></i>
+        </button> -->
+
+        <div id="survey-panel" class="survey-panel">
+            <div class="survey-panel-content" style="text-align: center;">
+                <p>Bantu kami meningkatkan layanan dengan mengisi survey singkat ini!</p>
+                <a href="https://pkp.go.id/survey" target="_blank" class="survey-btn">Isi Survey</a>
+            </div>
+            <button id="panel-close" class="panel-close">×</button>
+        </div>
+
+        <a href="https://pkp.go.id/survey" class="floating-btn" target="_blank">
+            <span class="fab-tooltip">Isi Survey</span>
+            <img src="/survey-svgrepo-com.svg" alt="survey">
+        </a>
+
+        
+        
+        
+        <script>
+            function adjustAccessibilityBtnPosition() {
+                const accBtn = document.getElementById('accessibility-trigger');
+                if (!accBtn) return;
+                const panel = document.getElementById('survey-panel');
+                const isPanelShow = panel && panel.classList.contains('show');
+                if (isPanelShow) {
+                    accBtn.style.bottom = '182px';
+                } else {
+                    accBtn.style.bottom = '87px';
+                }
+            }
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const panel = document.getElementById('survey-panel');
+                const fab = document.querySelector('.floating-btn');
+                const isClosed = sessionStorage.getItem('surveyPanelClosed');
+
+                if (isClosed === 'true') {
+                    fab.classList.add('show');
+                } else {
+                    panel.classList.add('show');
+                }
+
+                adjustAccessibilityBtnPosition();
+
+                document.getElementById('panel-close').addEventListener('click', function () {
+                    panel.classList.remove('show');
+                    fab.classList.add('show');
+                    sessionStorage.setItem('surveyPanelClosed', 'true');
+                    adjustAccessibilityBtnPosition();
+                });
+            });
+
+            const box = document.querySelector('.search-box');
+            const btn = document.getElementById('searchToggle');
+            const input = document.getElementById('searchInput');
+
+            btn.addEventListener('click', () => {
+                box.classList.add('active');
+                input.focus();
+            });
+
+            input.addEventListener('blur', () => {
+                if (!input.value.trim()) {
+                    box.classList.remove('active');
+                }
+            });
+
+            document.addEventListener('show.bs.modal', function (e) {
+                if (e.target.id === 'popupModal') {
+                    toggleFloatingElements(false);
+                }
+            });
+
+            document.addEventListener('hidden.bs.modal', function (e) {
+                if (e.target.id === 'popupModal') {
+                    toggleFloatingElements(true);
+                }
+            });
+
+            function toggleFloatingElements(visible) {
+                if (!visible && gprWidgetDrawer.classList.contains('is-open')) {
+                    closeGprWidget();
+                }
+
+                const floatingEls = [
+                    document.getElementById('survey-panel'),
+                    document.querySelector('.floating-btn'),
+                    document.getElementById('youtube-float-card'),
+                    document.getElementById('accessibility-trigger'),
+                    document.getElementById('gpr-widget-toggle'),
+                    document.getElementById('gpr-widget-backdrop'),
+                    document.getElementById('gpr-widget-drawer')
+                ];
+                floatingEls.forEach(el => {
+                    if (el) el.style.visibility = visible ? 'visible' : 'hidden';
+                });
+            }
+        </script>
+
+    </body>
+</html>

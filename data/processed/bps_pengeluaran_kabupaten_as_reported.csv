@@ -1,0 +1,33 @@
+﻿location,year,food_idr_capita_month,nonfood_idr_capita_month,total_idr_capita_month,source_id,locator,quality_flag,used_in_model
+Lampung Barat,2024,688930,474063,1162992,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Barat,2025,716609,655318,1371927,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tanggamus,2024,607061,389945,997006,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tanggamus,2025,586152,436208,1022360,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Selatan,2024,659485,467598,1127083,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Selatan,2025,681365,508574,1189939,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Timur,2024,558800,427380,986180,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Timur,2025,577327,474073,1051400,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Tengah,2024,667769,517588,1185356,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Tengah,2025,643779,495717,1139496,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Utara,2024,567417,399411,966828,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung Utara,2025,596298,450929,1047227,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Way Kanan,2024,684479,503492,1187971,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Way Kanan,2025,682642,525159,1207802,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tulangbawang,2024,621903,496633,1118536,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tulangbawang,2025,650609,517093,1167702,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pesawaran,2024,668624,483269,1151892,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pesawaran,2025,663639,516414,1180053,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pringsewu,2024,580589,459243,1039832,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pringsewu,2025,592669,559510,1152179,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Mesuji,2024,631429,551556,1182986,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Mesuji,2025,562933,494736,1057670,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tulang Bawang Barat,2024,616035,547820,1163855,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Tulang Bawang Barat,2025,569899,489648,1059547,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pesisir Barat,2024,822140,614769,1436908,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Pesisir Barat,2025,771489,492905,1264394,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Bandar Lampung,2024,800857,975419,1776277,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Bandar Lampung,2025,848298,1011424,1859722,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Metro,2024,784846,852152,1636998,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Metro,2025,776808,957137,1733945,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung,2024,656937,544537,1201473,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,table_contains_province_total_conflict,False
+Lampung,2025,734064,760502,1494565,bps_lampung_2026_pdf,PDF page733; printed685; Table11.3,province2025_equals_urban_total_conflicts_with_table11.1,False

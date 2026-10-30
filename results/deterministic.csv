@@ -1,0 +1,5 @@
+path_id,segment,method,dp_ready_month,purchase_month,purchase_age,extra_down_payment_idr,purchase_price_idr,liquidity_failure_after_entry,budget_breach_after_entry,loan_completed_without_liquidity_failure,scheduled_payoff_age
+0,subsidy,cash,21.0,129.0,33.75,,166000000.0,False,False,False,
+0,subsidy,kpr,21.0,33.0,25.75,15051198.106899075,166000000.0,False,False,True,45.75
+0,commercial,cash,98.0,296.0,47.66666666666667,,725637280.5737259,False,False,False,
+0,commercial,kpr,98.0,,,,,False,False,False,

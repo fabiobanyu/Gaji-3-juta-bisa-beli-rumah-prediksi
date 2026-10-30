@@ -1,0 +1,8 @@
+﻿parameter,value,unit,source_id,note
+flpp_rate_advertised,5.0,percent_pa,tapera_flpp,"Page says flat; model uses nominal annual annuity assumption, with flat sensitivity."
+flpp_dp_min,1.0,percent_price,tapera_flpp,"minimum advertised, not all upfront charges"
+flpp_tenor_advertised,40.0,years,tapera_flpp,current downloaded page; older brochure 20 years; actual bank approval required
+flpp_tenor_brochure,20.0,years,tapera_brosur,2025/09 URL folder; publication day not shown
+flpp_income_cap_single_zone1,8500000.0,idr_month,tapera_flpp,Lampung/Sumatera zone1; assumed constant in model
+mandiri_max_age_at_maturity,55.0,years,mandiri_flpp,"bank-specific; used as conservative eligibility scenario, not universal rule"
+bi_kpr_rate_2026q2,7.44,percent_pa,bi_shpr_pdf_retry,PDF page3; aggregate bank lending indicator; not personalized offer
